@@ -4,6 +4,7 @@ ubsApp.withdrawFromBankConfig={
             {
                 "templateId":14,
                 "templateType":"withdrawFromBank",
+                "questionId": "withdraw",
                 "title":"{{withdrawFromBankTitle}}",
                 "cashTitle":"{{cashTitle}}",
                 "bankBalanceTitle":"{{bankBalanceTitle}}",
