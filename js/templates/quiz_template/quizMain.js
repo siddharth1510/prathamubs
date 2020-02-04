@@ -39,9 +39,11 @@ ubsApp.displayNextQuizQuestion=function(page, updateCorrectAnswerScore){
 }
 
 ubsApp.checkAnswerAndRenderNextPage=function(page, answer, optionName, questionId, reputationPoints, startTime, helpPageName, entryPoint, scenarioName){
+  console.log("Quiz Question ID: "+ questionId);
   var totalMarks = 1; // each question carries 1 mark
   var date=new Date();
   var resultConfig={};
+  console.log(questionId);
   if(startTime == ""){
   	var startTime=date.getDate()+"-"+(date.getMonth()+1)+"-"+date.getFullYear()+" "+date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
   }
